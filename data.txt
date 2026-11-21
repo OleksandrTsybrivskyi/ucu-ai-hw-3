@@ -1,0 +1,4 @@
+Dataset Description
+Dataset Description
+
+The data is a processed subset of GhostWriter (Schaaf, Bönisch and Mehler, LREC 2026). train.csv (272,352 rows) contains id, text, lang (en-EN or de-DE), domain (news, arXiv papers, blogs, UK and German parliament, court cases, student essays, books), and the target label (human, ai, or fusion). test.csv (25,000 rows) has the same columns without label; sample_submission.csv shows the required format. Texts are 20–3000 words long (median 463). A human text and its AI or fusion versions are always on the same side of the train/test split. License: CC BY-NC-SA 4.0, for course use only.
